@@ -6,6 +6,7 @@ nav {
     justify-content: space-between;
     padding: 0;
     border-bottom: 1px var(--bg-outline) solid;
+    position: sticky;
 }
 
 nav .logo {

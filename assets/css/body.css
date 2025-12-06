@@ -4,13 +4,14 @@ html, body {
     font-family: monospace;
     font-size: 1.05rem;
     margin: 0;
+    height: 300vh;
 }
 
 a {
-    color: var(--fg-dampen);
+    color: var(--fg-title);
     text-decoration: none;
 
-    background: linear-gradient(var(--primary) 0 0) 
+    background: var(--gradient) 
         bottom left/
         var(--underline-width, 0%) 0.1em
         no-repeat;
@@ -18,7 +19,7 @@ a {
     display: inline-block;
     padding: 0.1em .2em 0.1em;
     text-decoration: none;
-    transition: background-size 0.5s;
+    transition: all 0.5s ease-out;
 }
 
 a:hover {
