@@ -1,0 +1,12 @@
+:root {
+    --bg-back: #191c24;
+    --bg-front: #1f242e;
+    --bg-outline: #29283b;
+
+    --fg-title: hsl(0, 0%, 85%);
+    --fg-dampen: hsl(0, 0%, 75%);
+
+    --primary: hsl(281, 65%, 55%);
+
+    --gradient: linear-gradient(90deg,rgb(230, 120, 120) 0%, rgb(231, 89, 236) 100%);
+}

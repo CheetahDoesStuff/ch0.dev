@@ -1,0 +1,36 @@
+html, body {
+    background: var(--bg-back);
+    color: var(--fg-title);
+    font-family: monospace;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+a {
+    color: var(--fg-dampen);
+    text-decoration: none;
+
+    background: linear-gradient(var(--primary) 0 0) 
+        bottom left/
+        var(--underline-width, 0%) 0.1em
+        no-repeat;
+    
+    display: inline-block;
+    padding: 0.1em .2em 0.1em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+}
+
+a:hover {
+    --underline-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.gradient {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
