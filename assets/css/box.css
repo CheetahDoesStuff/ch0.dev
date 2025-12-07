@@ -5,6 +5,7 @@
     border-radius: 10px;
     padding: 20px;
     width: 50%;
+    opacity: 0;
 }
 
 .box-full {
