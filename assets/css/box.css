@@ -1,0 +1,48 @@
+.box {
+    background-color: var(--bg-front-alpha);
+    border: solid 1px var(--bg-outline);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.box-full {
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 80px);
+}
+
+.frontpage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.front-side {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.front-side p, .front-side h1, .front-side h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left {
+    margin-left: 20px;
+}
+
+.box-right {
+    margin-right: 20px;
+}

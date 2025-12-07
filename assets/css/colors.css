@@ -1,7 +1,8 @@
 :root {
     --bg-back: #191c24;
-    --bg-front: #1f242e;
-    --bg-outline: rgb(47, 46, 66);
+    --bg-front: rgb(31, 36, 46);
+    --bg-front-alpha: rgba(33, 38, 49, 0.7);
+    --bg-outline: rgb(46, 50, 66);
 
     --fg-title: hsl(0, 0%, 85%);
     --fg-dampen: hsl(0, 0%, 75%);
