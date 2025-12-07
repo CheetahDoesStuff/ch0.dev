@@ -27,6 +27,18 @@
     flex-direction: column;
     justify-content: center;
 }
+.left-front div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left-front div a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .front-side p, .front-side h1, .front-side h3 {
     margin: 0;
