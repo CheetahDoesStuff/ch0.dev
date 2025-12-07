@@ -1,22 +1,24 @@
- /* Style the header: fixed position (always stay at the top) */
 .header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
 }
 
-/* The progress container (grey background) */
 .progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--bg-front);
+    z-index: 9999;
 }
 
-/* The progress bar (scroll indicator) */
+
+
 .progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
+    height: 2px;
+    background: var(--gradient);
+    width: 0%;
 } 

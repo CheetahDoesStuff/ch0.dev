@@ -7,6 +7,7 @@ nav {
     padding: 0;
     border-bottom: 1px var(--bg-outline) solid;
     position: sticky;
+    top: 0;
 }
 
 nav .logo {
