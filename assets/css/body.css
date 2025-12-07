@@ -39,3 +39,31 @@ li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.link-group {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: calc(100% - 16px);
+    display: flex;
+    flex-direction: row;
+    border-color: var(--bg-outline);
+    padding: 0 8px;
+    margin: 4px 0;
+}
+
+.link-group:hover {
+    border-color: var(--primary);
+}
+
+.link-title {
+    margin: 0;
+    padding: 0;
+}
+
+.link-desc {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    color: var(--fg-min);
+}
