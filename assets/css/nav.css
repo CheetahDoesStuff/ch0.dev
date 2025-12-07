@@ -1,5 +1,4 @@
 nav {
-    background: var(--bg-front);
     display: flex;
     flex-direction: row;
     align-items: center;

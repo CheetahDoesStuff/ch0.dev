@@ -1,0 +1,8 @@
+footer {
+    background:var(--bg-front-alpha);
+    width: 100vw;
+    border-top: 1px var(--bg-outline) solid;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
