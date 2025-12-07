@@ -28,6 +28,10 @@ a {
     transition: all 0.5s ease-out;
 }
 
+a.no-line {
+    background: transparent;
+}
+
 a.icon {
     font-size: 1.4em;
     height: 28px;

@@ -9,7 +9,7 @@
     --fg-dampen: hsl(0, 0%, 75%);
     --fg-min: hsl(0, 0%, 50%);
 
-    --primary: rgb(230, 120, 120);
+    --primary: rgb(236, 89, 150);
 
     --gradient: linear-gradient(90deg,rgb(230, 120, 120) 0%, rgb(231, 89, 236) 100%);
 }
