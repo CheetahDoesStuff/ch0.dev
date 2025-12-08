@@ -77,4 +77,9 @@
     align-items: center;
     border-radius: 8px;
     padding: 4px;
+    opacity: 0;
+}
+
+.tech-section img {
+    opacity: 0;
 }

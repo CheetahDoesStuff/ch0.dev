@@ -110,3 +110,7 @@ h3 {
 h4 {
     margin: 6px;
 }
+
+.animate-text span {
+    opacity: 0;
+}
