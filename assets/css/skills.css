@@ -1,0 +1,55 @@
+.skill {
+    background: var(--bg-front-two-alpha);
+    border-radius: 8px;
+    border: 1px solid var(--bg-outline);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 6px 0;
+    opacity: 0;
+}
+
+.skill progress[value] {
+    -webkit-appearance:none;
+    -moz-appearance:none;        
+    appearance: none;
+
+    margin-left: 12px;
+    height: 20px;
+    width: 80%;
+}
+
+.skill p {
+    width: 120px;
+    margin: 0;
+}
+
+.skill progress[value] {
+    -webkit-appearance:none;
+    -moz-appearance:none;        
+    appearance: none;
+
+    height: 20px;
+    width: 80%;
+
+    border: none;
+
+    margin: 0;
+
+    border-radius: 10em;
+    background: var(--bg-front-three-alpha);
+}
+
+.skill progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--gradient);
+}
+.skill progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--bg-front-three-alpha);
+}
+.skill progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--gradient);
+}
