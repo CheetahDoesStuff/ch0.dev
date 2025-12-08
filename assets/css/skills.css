@@ -71,7 +71,10 @@
 }
 
 .tech-section {
-    background-color: var(--bg-front-three-alpha);
+    background-color: var(--bg-front-two-alpha);
     border: 1px solid var(--bg-outline);
+    display: flex;
     align-items: center;
+    border-radius: 8px;
+    padding: 4px;
 }
