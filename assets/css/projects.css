@@ -1,0 +1,45 @@
+.project {
+    background: var(--bg-front-three-alpha);
+    border: 1px solid var(--bg-outline);
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    background: none;
+    transition: all 0.5s ease-out;
+    width: 260px;
+    height: 450px;
+}
+
+.project img {
+    border-radius: 8px;
+    border: 1px solid var(--bg-outline);
+    margin: 5px;
+    width: 250px;
+    height: 300px;
+    transition: all 0.5s ease-out;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects a {
+    background: none;
+}
+
+.project:hover {
+    border-color: var(--primary);
+}
+
+.project:hover img {
+    margin: 0;
+    width: 260px;
+    height: 310px;
+}
+
+.center {
+    text-align: center;
+}

@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ],
                 delay: (el, i) => i * 200 + 400
             });
-            animate('img', {
+            animate('.tech-section img', {
                 opacity: [
                     { to: '0', duration: 0 },
                     { to: '1', easing: "easeInOutQuad", duration: 1000 }
