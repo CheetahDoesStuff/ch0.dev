@@ -1,22 +1,21 @@
 .project {
     background: var(--bg-front-three-alpha);
     border: 1px solid var(--bg-outline);
-    padding: 5px;
+    padding: 7px;
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     background: none;
     transition: all 0.5s ease-out;
-    width: 260px;
-    height: 450px;
+    font-size: 14px;
+    width: 100%;
 }
 
-.project img {
-    border-radius: 8px;
-    border: 1px solid var(--bg-outline);
-    margin: 5px;
-    width: 250px;
-    height: 300px;
-    transition: all 0.5s ease-out;
+.project p {
+    margin: 0;
+}
+
+.project p b {
+    font-size: 16px;
 }
 
 .projects {
@@ -24,6 +23,11 @@
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    text-align: center;
+}
+
+.project-section {
+    width: 30%;
 }
 
 .projects a {

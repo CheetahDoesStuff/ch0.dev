@@ -75,6 +75,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 ],
                 delay: (el, i) => i * 50 + 400
             });
+            animate('.project', {
+                opacity: [
+                    { to: '0', duration: 0 },
+                    { to: '1', easing: "easeInOutQuad", duration: 1000 }
+                ],
+                y: [
+                    { to: '40px', duration: 0 },
+                    { to: '0px', easing: 'easeOutQuad', duration: 750 }
+                ],
+                delay: (el, i) => i * 50 + 400
+            });
             animate('.letter', {
                 opacity: [
                     { to: '0', duration: 0 },
