@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .frontpage {
+        flex-direction: column;
+    }
+
+    .front-side {
+        width: 100%;
+    }
+    .right-front {
+        margin-top: 8px;
+    }
+
+    .box-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box {
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-section {
+        width: 100%;
+    }
+}

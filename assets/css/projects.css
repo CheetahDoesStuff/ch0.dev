@@ -8,6 +8,7 @@
     transition: all 0.5s ease-out;
     font-size: 14px;
     width: 100%;
+    flex: 1;
 }
 
 .project p {
@@ -28,6 +29,9 @@
 
 .project-section {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .projects a {

@@ -9,10 +9,6 @@ html, body {
     /* height: 300vh; */
 }
 
-.container {
-    height: 100%;
-}
-
 a {
     color: var(--fg-title);
     text-decoration: none;
